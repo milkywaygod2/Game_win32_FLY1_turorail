@@ -1,0 +1,13 @@
+﻿  unity_3YF37028UKXV1CTZ.cpp
+  unity_UZDAOSKM2JTOTHIO.cpp
+  unity_KFBDDVOSMOT9OVZX.cpp
+  unity_32R3UD23YR4VQU5W.cpp
+C:\Users\user\source\repos\AssortRock_win32\AssortRockProject2\CScn.cpp(94,17): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다. (소스 파일 컴파일 중 C:\Users\user\source\repos\AssortRock_win32\AssortRockProject2\UnityBuild\unity_UZDAOSKM2JTOTHIO.cpp)
+C:\Users\user\source\repos\AssortRock_win32\AssortRockProject2\CScn.cpp(96,17): warning C4018: '<=': signed 또는 unsigned가 일치하지 않습니다. (소스 파일 컴파일 중 C:\Users\user\source\repos\AssortRock_win32\AssortRockProject2\UnityBuild\unity_UZDAOSKM2JTOTHIO.cpp)
+C:\Users\user\source\repos\AssortRock_win32\AssortRockProject2\CScn.cpp(124,20): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다. (소스 파일 컴파일 중 C:\Users\user\source\repos\AssortRock_win32\AssortRockProject2\UnityBuild\unity_UZDAOSKM2JTOTHIO.cpp)
+C:\Users\user\source\repos\AssortRock_win32\AssortRockProject2\CScn.cpp(126,21): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다. (소스 파일 컴파일 중 C:\Users\user\source\repos\AssortRock_win32\AssortRockProject2\UnityBuild\unity_UZDAOSKM2JTOTHIO.cpp)
+  코드를 생성하고 있습니다.
+  Previous IPDB not found, fall back to full compilation.
+  All 1122 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
+  코드를 생성했습니다.
+  AssortRockProject2.vcxproj -> C:\Users\user\source\repos\AssortRock_win32\x64\bin\AssortRockProject2.exe

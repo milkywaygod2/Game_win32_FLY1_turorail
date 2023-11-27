@@ -1,0 +1,5 @@
+﻿  main1.cpp
+C:\Users\user\source\repos\AssortRock_win32\AssortRockProject2\main1.cpp(176,17): warning C4091: '': 변수를 선언하지 않으면 'HWND__ *' 왼쪽은 무시됩니다.
+C:\Users\user\source\repos\AssortRock_win32\AssortRockProject2\main1.cpp(177,17): warning C4091: '': 변수를 선언하지 않으면 'HPEN__ *' 왼쪽은 무시됩니다.
+C:\Users\user\source\repos\AssortRock_win32\AssortRockProject2\main1.cpp(178,19): warning C4091: '': 변수를 선언하지 않으면 'HBRUSH__ *' 왼쪽은 무시됩니다.
+  AssortRockProject2.vcxproj -> C:\Users\user\source\repos\AssortRock_win32\Debug\AssortRockProject2.exe

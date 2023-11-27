@@ -1,0 +1,188 @@
+[Animation Name]
+FLY1_FLY_R
+
+[Texture Key]
+FLY1_FLY_R
+
+[Texture Path]
+texture\fly1\fly1_512x128.bmp
+
+[Frame Count]
+16
+
+[Frame Index]
+0
+[Left Top]
+0 0
+[Image Size]
+32 32
+[Offset]
+0 0
+[Duration]
+0.050000
+
+[Frame Index]
+1
+[Left Top]
+32 0
+[Image Size]
+32 32
+[Offset]
+0 0
+[Duration]
+0.050000
+
+[Frame Index]
+2
+[Left Top]
+64 0
+[Image Size]
+32 32
+[Offset]
+0 0
+[Duration]
+0.050000
+
+[Frame Index]
+3
+[Left Top]
+96 0
+[Image Size]
+32 32
+[Offset]
+0 0
+[Duration]
+0.050000
+
+[Frame Index]
+4
+[Left Top]
+128 0
+[Image Size]
+32 32
+[Offset]
+0 0
+[Duration]
+0.050000
+
+[Frame Index]
+5
+[Left Top]
+160 0
+[Image Size]
+32 32
+[Offset]
+0 0
+[Duration]
+0.050000
+
+[Frame Index]
+6
+[Left Top]
+192 0
+[Image Size]
+32 32
+[Offset]
+0 0
+[Duration]
+0.050000
+
+[Frame Index]
+7
+[Left Top]
+224 0
+[Image Size]
+32 32
+[Offset]
+0 0
+[Duration]
+0.050000
+
+[Frame Index]
+8
+[Left Top]
+256 0
+[Image Size]
+32 32
+[Offset]
+0 0
+[Duration]
+0.050000
+
+[Frame Index]
+9
+[Left Top]
+288 0
+[Image Size]
+32 32
+[Offset]
+0 0
+[Duration]
+0.050000
+
+[Frame Index]
+10
+[Left Top]
+320 0
+[Image Size]
+32 32
+[Offset]
+0 0
+[Duration]
+0.050000
+
+[Frame Index]
+11
+[Left Top]
+352 0
+[Image Size]
+32 32
+[Offset]
+0 0
+[Duration]
+0.050000
+
+[Frame Index]
+12
+[Left Top]
+384 0
+[Image Size]
+32 32
+[Offset]
+0 0
+[Duration]
+0.050000
+
+[Frame Index]
+13
+[Left Top]
+416 0
+[Image Size]
+32 32
+[Offset]
+0 0
+[Duration]
+0.050000
+
+[Frame Index]
+14
+[Left Top]
+448 0
+[Image Size]
+32 32
+[Offset]
+0 0
+[Duration]
+0.050000
+
+[Frame Index]
+15
+[Left Top]
+480 0
+[Image Size]
+32 32
+[Offset]
+0 0
+[Duration]
+0.050000
+

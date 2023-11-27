@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup>
+    <EnableUnitySupport>true</EnableUnitySupport>
+  </PropertyGroup>
+  <PropertyGroup Label="Globals">
+    <VCProjectVersion>16.0</VCProjectVersion>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectGuid>{57ad02cc-bf27-4af2-ba31-3ceb49faa872}</ProjectGuid>
+    <RootNamespace>AssortRockProject2</RootNamespace>
+    <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v143</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="Shared">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\bin_debug\</OutDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <OutDir>$(SolutionDir)$(Platform)\bin\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>_DEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <MinFilesInUnityFile>10</MinFilesInUnityFile>
+      <UnityFilesDirectory>$(ProjectDir)\UnityBuild\</UnityFilesDirectory>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <SDLCheck>true</SDLCheck>
+      <PreprocessorDefinitions>NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ConformanceMode>true</ConformanceMode>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <PrecompiledHeaderFile>pch.h</PrecompiledHeaderFile>
+      <MinFilesInUnityFile>10</MinFilesInUnityFile>
+      <UnityFilesDirectory>$(ProjectDir)\UnityBuild\</UnityFilesDirectory>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClInclude Include="AI_state.h" />
+    <ClInclude Include="AI_stateAttack.h" />
+    <ClInclude Include="AI_stateDead.h" />
+    <ClInclude Include="AI_stateIdle.h" />
+    <ClInclude Include="AI_stateTrace.h" />
+    <ClInclude Include="CCmp_01Cldr.h" />
+    <ClInclude Include="CCmp_02Amtr.h" />
+    <ClInclude Include="CCmp_02Amtrn.h" />
+    <ClInclude Include="CCmp_03RgdB.h" />
+    <ClInclude Include="CCmp_04Grbt.h" />
+    <ClInclude Include="CCore.h" />
+    <ClInclude Include="CMdl_02AI.h" />
+    <ClInclude Include="CObj.h" />
+    <ClInclude Include="CObj_01PLR.h" />
+    <ClInclude Include="CObj_02MTR.h" />
+    <ClInclude Include="CObj_03MSL.h" />
+    <ClInclude Include="CObj_04TL.h" />
+    <ClInclude Include="CObj_05UI.h" />
+    <ClInclude Include="CObj_06GRD.h" />
+    <ClInclude Include="CRsc.h" />
+    <ClInclude Include="CRsc_01TXR.h" />
+    <ClInclude Include="CRsc_02SND.h" />
+    <ClInclude Include="CScn.h" />
+    <ClInclude Include="CScn_00TL.h" />
+    <ClInclude Include="CScn_01STT.h" />
+    <ClInclude Include="CMdl_01SltGDI.h" />
+    <ClInclude Include="define.h" />
+    <ClInclude Include="FactoryMTR.h" />
+    <ClInclude Include="func.h" />
+    <ClInclude Include="main1.h" />
+    <ClInclude Include="framework.h" />
+    <ClInclude Include="mgr_Cam.h" />
+    <ClInclude Include="mgr_Clls.h" />
+    <ClInclude Include="mgr_Evt.h" />
+    <ClInclude Include="mgr_Key.h" />
+    <ClInclude Include="mgr_Path.h" />
+    <ClInclude Include="mgr_Rsc.h" />
+    <ClInclude Include="mgr_Scn.h" />
+    <ClInclude Include="mgr_Snd.h" />
+    <ClInclude Include="mgr_Timer.h" />
+    <ClInclude Include="mgr_UI.h" />
+    <ClInclude Include="pch.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="struct.h" />
+    <ClInclude Include="targetver.h" />
+    <ClInclude Include="UI_Btn.h" />
+    <ClInclude Include="UI_Panel.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AI_state.cpp" />
+    <ClCompile Include="AI_stateAttack.cpp" />
+    <ClCompile Include="AI_stateDead.cpp" />
+    <ClCompile Include="AI_stateIdle.cpp" />
+    <ClCompile Include="AI_stateTrace.cpp" />
+    <ClCompile Include="CCmp_01Cldr.cpp" />
+    <ClCompile Include="CCmp_02Amtr.cpp" />
+    <ClCompile Include="CCmp_02Amtrn.cpp" />
+    <ClCompile Include="CCmp_03RgdB.cpp" />
+    <ClCompile Include="CCmp_04Grbt.cpp" />
+    <ClCompile Include="CCore.cpp" />
+    <ClCompile Include="CMdl_02AI.cpp" />
+    <ClCompile Include="CObj.cpp" />
+    <ClCompile Include="CObj_01PLR.cpp" />
+    <ClCompile Include="CObj_02MTR.cpp" />
+    <ClCompile Include="CObj_03MSL.cpp" />
+    <ClCompile Include="CObj_04TL.cpp" />
+    <ClCompile Include="CObj_05UI.cpp" />
+    <ClCompile Include="CObj_06GRD.cpp" />
+    <ClCompile Include="CRsc.cpp" />
+    <ClCompile Include="CRsc_01TXR.cpp" />
+    <ClCompile Include="CRsc_02SND.cpp" />
+    <ClCompile Include="CScn.cpp" />
+    <ClCompile Include="CScn_00TL.cpp" />
+    <ClCompile Include="CScn_01STT.cpp" />
+    <ClCompile Include="CMdl_01SltGDI.cpp" />
+    <ClCompile Include="FactoryMTR.cpp" />
+    <ClCompile Include="func.cpp" />
+    <ClCompile Include="00just_memo.cpp" />
+    <ClCompile Include="main1.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </ClCompile>
+    <ClCompile Include="main2.cpp" />
+    <ClCompile Include="mgr_Cam.cpp" />
+    <ClCompile Include="mgr_Clls.cpp" />
+    <ClCompile Include="mgr_Evt.cpp" />
+    <ClCompile Include="mgr_Key.cpp" />
+    <ClCompile Include="mgr_Path.cpp" />
+    <ClCompile Include="mgr_Rsc.cpp" />
+    <ClCompile Include="mgr_Scn.cpp" />
+    <ClCompile Include="mgr_Snd.cpp" />
+    <ClCompile Include="mgr_Timer.cpp" />
+    <ClCompile Include="mgr_UI.cpp" />
+    <ClCompile Include="UI_Btn.cpp" />
+    <ClCompile Include="UI_Panel.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AssortRockProject2.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="AssortRockProject2.ico" />
+    <Image Include="small.ico" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
