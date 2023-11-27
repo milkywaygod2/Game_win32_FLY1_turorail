@@ -1,0 +1,91 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.36.32535.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///c:/users/user/source/repos/assortrock_win32/assortrockproject2/main1.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "sha-256": "366a090fc734cc8064a11eb6583a3f4474a56fcd5b9a0ca66552db7a747d1559"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/source/repos/assortrock_win32/assortrockproject2/pch.h"
+          },
+          "hashes": {
+            "sha-256": "f36835ffca3b2f1c9167deb1a74a5fb696ce6934b7794b60c920957f69304a23"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/source/repos/assortrock_win32/assortrockproject2/define.h"
+          },
+          "hashes": {
+            "sha-256": "2e4fe13735fdd9f8ea0925864a34b8e36c347ce493d46aa180814057c3ea5a29"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/source/repos/assortrock_win32/assortrockproject2/framework.h"
+          },
+          "hashes": {
+            "sha-256": "9cbf9bb6afaa96e6efa6a006ade17db92cb3dd03373c1177bee0ecdce4ac53b4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/source/repos/assortrock_win32/assortrockproject2/targetver.h"
+          },
+          "hashes": {
+            "sha-256": "a46c1deecdc9ad92b03cad119ea9eb07a1c2666074ad2c154c8cb943847fe1b0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/source/repos/assortrock_win32/assortrockproject2/ccore.h"
+          },
+          "hashes": {
+            "sha-256": "d02569e6c6e8cffd04f154c99edb1800fd4cc09fc17a85af4c017682d30acf18"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/source/repos/assortrock_win32/assortrockproject2/main1.h"
+          },
+          "hashes": {
+            "sha-256": "245ff9031a96ef2ffade37bd506c2cf3e602747e29b80a41cb2be9f3c9691154"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/user/source/repos/assortrock_win32/assortrockproject2/resource.h"
+          },
+          "hashes": {
+            "sha-256": "df2dada879a416ff718276cf5d89f28bc7d3da0807db13ea564cb4a75674f8e1"
+          }
+        }
+      ]
+    }
+  ]
+}
