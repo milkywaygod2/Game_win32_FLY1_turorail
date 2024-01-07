@@ -1,5 +1,5 @@
 #pragma once
-//Pre Compiled Header 미리 컴파일된 헤더, 프로젝트 속성에서 활성화해야
+//Pre Compiled Header 미리 컴파일된 헤더, 프로젝트 속성에서 "만들기"활성화+헤더파일명.h 입력해야
 //중앙집권 헤더
 
 #include "windows.h"
